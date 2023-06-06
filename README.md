@@ -1,8 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Passwordless Authentication with NextAuth.js and Prisma
+In [this guide](https://codelabsacademy.com/blog/passwordless-login-nextjs13-nextauth-prisma), you'll find step-by-step instructions on how to set up and configure passwordless authentication using NextAuth.js in your Next.js project. We'll also explore how to integrate Prisma as the database adapter, enabling smooth communication between your application and the database.
 
 ## Getting Started
 
-First, run the development server:
+First, updaet your `.env` file to include all required environment variables. Next, run the development server:
 
 ```bash
 npm run dev
@@ -14,9 +15,8 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Go to [http://localhost:3000/api/auth/signin](http://localhost:3000/api/auth/signin) to test the passwordless login created using NextAuthJS
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
